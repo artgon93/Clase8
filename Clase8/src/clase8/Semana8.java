@@ -18,5 +18,9 @@ public class Semana8 {
         int vec[] = new int[10];
         vec = clase1.iniciarVec(vec);
         System.out.println(clase1.mostrarVec(vec));
+        
+        int mat[][] = new int[10][10];
+        mat = clase1.iniciarMat(mat, 5, 5);
+        System.out.println("");
     }
 }

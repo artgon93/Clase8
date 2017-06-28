@@ -32,5 +32,16 @@ public class Clase8 {
         }
         return frase;
     }
+    //Sintaxis de una matriz int mat[][] new mat[2][3];
+    public int[][] iniciarMat(int[][] matriz,int filas, int colum){
+        int mat[][] = matriz;
+        
+        for(int i = 0; i<filas;i++){
+            for(int j = 0; j<colum;j++){
+                mat[i][j]=(j+i);
+            }
+        }
+        return mat;
+    }
     
 }
