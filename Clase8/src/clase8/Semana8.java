@@ -15,7 +15,8 @@ public class Semana8 {
     public static void main(String[] args) {
        
         Clase8 clase1 = new Clase8();
-        clase1.iniciarVec();
-
+        int vec[] = new int[10];
+        vec = clase1.iniciarVec(vec);
+        System.out.println(clase1.mostrarVec(vec));
     }
 }

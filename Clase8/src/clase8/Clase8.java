@@ -20,10 +20,17 @@ public class Clase8 {
     public int[] iniciarVec(int[] vector){
        // Scanner sc = new Scanner(System.in);
         int vec[] = vector;
-        for(int i = 0; i<vec.length-1;i++){
+        for(int i = 0; i<=vec.length-1;i++){
             vec[i]=i;
         }
         return vec;
+    }
+    public String mostrarVec(int[] vec){
+        String frase= "";
+        for(int i = 0; i<=vec.length-1;i++){
+            frase = frase + vec[i] +", ";
+        }
+        return frase;
     }
     
 }
