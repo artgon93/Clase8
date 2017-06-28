@@ -5,13 +5,25 @@
  */
 package clase8;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Estudiantes
  */
 public class Clase8 {
-    public void prueba(){
-        System.out.println("Hola");
+    
+    
+    int vec[] = new int[5];
+    
+        
+    public void iniciarVec(){
+        Scanner sc = new Scanner(System.in);        
+        for(int i = 0; i<5;i++){
+            System.out.println("Digite un número");
+            vec[i] = sc.nextInt();
+        }
+        System.out.println("El numero en la posicion 5 es: "+vec[4]);
     }
     
 }

@@ -14,8 +14,8 @@ public class Semana8 {
     
     public static void main(String[] args) {
        
-        Clase8 clase = new Clase8();
-        clase.prueba();
+        Clase8 clase1 = new Clase8();
+        clase1.iniciarVec();
 
     }
 }
