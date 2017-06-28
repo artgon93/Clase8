@@ -17,13 +17,13 @@ public class Clase8 {
     int vec[] = new int[5];
     
         
-    public void iniciarVec(){
-        Scanner sc = new Scanner(System.in);        
-        for(int i = 0; i<5;i++){
-            System.out.println("Digite un número");
-            vec[i] = sc.nextInt();
+    public int[] iniciarVec(int[] vector){
+       // Scanner sc = new Scanner(System.in);
+        int vec[] = vector;
+        for(int i = 0; i<vec.length-1;i++){
+            vec[i]=i;
         }
-        System.out.println("El numero en la posicion 5 es: "+vec[4]);
+        return vec;
     }
     
 }
